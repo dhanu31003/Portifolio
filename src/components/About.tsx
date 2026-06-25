@@ -23,7 +23,7 @@ export default function About() {
   };
 
   return (
-    <section id="about" className="py-28 md:py-32 relative overflow-hidden">
+    <section id="about" className="py-16 md:py-20 relative overflow-hidden">
       <div className="section-container">
         {/* Section Heading */}
         <motion.div
@@ -39,7 +39,7 @@ export default function About() {
           </h2>
         </motion.div>
 
-        <div className="grid lg:grid-cols-12 gap-16 lg:gap-24 items-center">
+        <div className="grid lg:grid-cols-12 gap-16 lg:gap-24 items-start">
           {/* Left: Image */}
           <motion.div
             initial={{ opacity: 0, scale: 0.9, rotate: -2 }}
@@ -76,7 +76,7 @@ export default function About() {
             viewport={{ once: true, margin: "-100px" }}
             className="lg:col-span-7"
           >
-            <div className="space-y-8 mb-16">
+            <div className="space-y-6 mb-8">
               {aboutData.paragraphs.map((paragraph, index) => (
                 <motion.p
                   key={index}

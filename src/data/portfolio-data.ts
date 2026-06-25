@@ -20,9 +20,10 @@ export const personalInfo = {
 
 export const aboutData = {
   paragraphs: [
-    "I am an AI Engineer and Full-Stack Developer with a deep passion for building intelligent systems that solve real-world problems. Currently pursuing my B.Tech in Artificial Intelligence at Mahindra University, I bridge the gap between complex machine learning models and intuitive user applications.",
-    "My expertise spans developing generative AI platforms, orchestrating semantic search engines using vector databases, and engineering robust full-stack applications. From optimizing GPU-accelerated video pipelines to developing real-time virtual try-on technology, I thrive on tackling challenging technical problems.",
-    "Whether it's training predictive models for algorithmic trading, creating real-time emotional support chatbots, or building immersive AR/VR experiences, I am driven by the impact of deploying production-ready software.",
+    "I am an AI Engineer, Full-Stack Developer, and Founder of OTR Technologies Pvt. Ltd., passionate about building intelligent software and immersive digital experiences that solve real-world problems. After graduating with a B.Tech in Artificial Intelligence from Mahindra University (Aug 2025), I have focused on developing production-ready AI, AR/VR, and full-stack applications that bridge research with practical products.",
+    "My experience spans machine learning, generative AI, computer vision, semantic search, and immersive technologies. As the founder of OTR Technologies, I develop Virtual Reality solutions for villa communities and residential projects using Unreal Engine 5, OpenXR, Meta Quest, SketchUp, Blender, and D5 Render, enabling clients to explore properties through interactive VR experiences before construction.",
+    "Alongside my entrepreneurial journey, I worked as an AR/VR Developer Intern at Snapchat, contributing to indoor navigation experiences for Snapchat Spectacles by improving spatial mapping algorithms, user experience, and real-time AR functionality. I have also built AI systems ranging from semantic search engines and algorithmic trading models to real-time conversational AI and virtual try-on platforms.",
+    "I enjoy solving challenging engineering problems and transforming innovative ideas into scalable, production-ready software that delivers measurable value."
   ],
   highlights: [
     { label: "Core Projects", value: "6+" },
@@ -106,7 +107,7 @@ export const experiences: Experience[] = [
     id: "exp-1",
     title: "AR/VR Developer Intern",
     organization: "Snapchat",
-    duration: "March 2025 – July 2025",
+    duration: "March 2025 – October 2025",
     type: "work",
     description:
       "Contributed to the development of an indoor navigation API for Snapchat Spectacles using Augmented Reality.",
@@ -360,7 +361,6 @@ export const certifications: { title: string; issuer: string; date: string; icon
 export const navLinks = [
   { label: "Home", href: "#hero" },
   { label: "About", href: "#about" },
-  { label: "Skills", href: "#skills" },
   { label: "Experience", href: "#experience" },
   { label: "Projects", href: "#projects" },
   { label: "Leadership", href: "#leadership" },

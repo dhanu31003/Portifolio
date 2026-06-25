@@ -63,7 +63,7 @@ export default function Hero() {
             </motion.p>
 
             <motion.p variants={item} className="text-text-tertiary max-w-lg mb-10 leading-relaxed">
-              I engineer production AI systems — from diffusion model try-on platforms to real-time voice companions — shipping code that turns research into products people use.
+              Founder of OTR Technologies, where I develop immersive Virtual Reality solutions for real estate visualization, and AR/VR Developer at Snapchat. I build AI-powered, computer vision, and full-stack applications that combine machine learning with immersive technologies to create products people use.
             </motion.p>
 
             <motion.div variants={item} className="flex flex-wrap gap-4 mb-10">

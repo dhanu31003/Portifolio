@@ -1,7 +1,6 @@
 import Navigation from "@/components/Navigation";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
-import Skills from "@/components/Skills";
 import Experience from "@/components/Experience";
 import Projects from "@/components/Projects";
 import Research from "@/components/Research";
@@ -18,7 +17,6 @@ export default function Home() {
       <div className="flex flex-col w-full relative">
         <Hero />
         <About />
-        <Skills />
         <Experience />
         <Projects />
         <Research />
